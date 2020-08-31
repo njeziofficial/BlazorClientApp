@@ -1,0 +1,93 @@
+﻿<div class="container">   
+    <EditForm Model="@Supplier" OnValidSubmit="OnValidSubmit">
+        <DataAnnotationsValidator />
+        
+
+        <div class="form-group">
+            <label>Company Name:</label>
+            <div>
+                <InputText class="form-control" @bind-Value="Supplier.CompanyName" />
+            </div>
+            <div>
+                <ValidationMessage For="@(()=>Supplier.CompanyName)"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Contact Name:</label>
+            <div>
+                <InputText class="form-control" @bind-Value="Supplier.ContactName" />
+            </div>
+            <div>
+                <ValidationMessage For="@(()=>Supplier.ContactName)" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Contact Title:</label>
+            <div>
+                <InputText class="form-control" @bind-Value="Supplier.ContactTitle" />
+            </div>
+            <div class="form-group">
+                <label>Address:</label>
+                <div>
+                    <InputText class="form-control" @bind-Value="Supplier.Address" />
+                </div>
+                <div>
+                    <ValidationMessage For="@(()=>Supplier.Address)" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>City:</label>
+                <div>
+                    <InputText class="form-control" @bind-Value="Supplier.City" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Region:</label>
+                <div>
+                    <InputText class="form-control" @bind-Value="Supplier.Region" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Postal Code:</label>
+                <div>
+                    <InputText class="form-control" @bind-Value="Supplier.PostalCode" />
+                </div>
+                <div>
+                    <ValidationMessage For="@(()=>Supplier.PostalCode)" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Country:</label>
+                <div>
+                    <InputText class="form-control" @bind-Value="Supplier.Country" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Phone:</label>
+                <div>
+                    <InputText class="form-control" @bind-Value="Supplier.Phone" />
+                </div>
+                <div class="form-group">
+                    <label>Fax:</label>
+                    <div>
+                        <InputText class="form-control" @bind-Value="Supplier.Fax" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Home Page:</label>
+                <div>
+                    <InputText class="form-control" @bind-Value="Supplier.HomePage" />
+                </div>
+            </div>
+        </div>
+        <SfButton IsPrimary="true">Save</SfButton>
+        @*<input type="submit" class="btn btn-primary" value="Save" />*@
+        <input type="reset" class="btn btn-danger" value="Clear" />
+    </EditForm>
+</div>
+
+@code{
+    [Parameter] public Supplier Supplier { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+}

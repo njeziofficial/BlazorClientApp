@@ -1,0 +1,27 @@
+﻿@page "/supplier/create"
+@inject ISupplierRepository repository
+@inject NavigationManager navigationManager
+
+
+
+<h1 style="text-align:center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" class="p-lg-3 m-lg-3">Create Supplier</h1>
+<SupplierForm Supplier="supplier" OnValidSubmit="Create"/>
+
+@code{
+    private Supplier supplier = new Supplier();
+
+    private async Task Create()
+    {       
+
+        try
+        {
+           await repository.CreateSupplier(supplier);
+            navigationManager.NavigateTo("index");
+        }
+        catch (Exception ex)
+        {
+
+            throw;
+        }
+    }
+}

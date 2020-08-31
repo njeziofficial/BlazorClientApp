@@ -1,0 +1,85 @@
+﻿@page "/"
+@using BlazorClientApp.Models
+
+<div class="form-group">
+    <a href="supplier/create" class="btn btn-info">New Supplier</a>
+</div>
+
+<SfGrid TValue="Supplier"
+        ID="Grid"
+        AllowPaging="true"
+        AllowSorting="true"
+        AllowFiltering="false"
+        AllowGrouping="true">   
+    <SfDataManager Url="http://localhost:7070/api/suppliers"                   
+                   Adaptor="Adaptors.ODataV4Adaptor"></SfDataManager>
+    <GridPageSettings PageSize="5"></GridPageSettings>
+    <GridColumns>
+        @*<GridColumn Field="@nameof(Supplier.SupplierID)"
+                    HeaderText="Supplier ID"
+                    IsPrimaryKey="true"
+                    TextAlign="TextAlign.Right"
+                    Width="120">
+        </GridColumn>*@
+        <GridColumn Field="@nameof(Supplier.CompanyName)"
+                    HeaderText="Company Name"
+                    TextAlign="TextAlign.Right"
+                    Width="120">
+        </GridColumn>
+        <GridColumn Field="@nameof(Supplier.ContactName)"
+                    HeaderText="Contact Name"
+                    TextAlign="TextAlign.Right"
+                    Width="150">
+        </GridColumn>
+        <GridColumn Field="@nameof(Supplier.ContactTitle)"
+                    HeaderText="Contact Title"
+                    TextAlign="TextAlign.Right"
+                    Width="130">
+        </GridColumn>
+        <GridColumn Field="@nameof(Supplier.Address)"
+                    HeaderText="Address"
+                    TextAlign="TextAlign.Right"
+                    Width="130">
+        </GridColumn>
+        @*<GridColumn Field="@nameof(Supplier.City)"
+                    HeaderText="City"
+                    TextAlign="TextAlign.Right"
+                    Width="130">
+        </GridColumn>
+        <GridColumn Field="@nameof(Supplier.Region)"
+                    HeaderText="Phone Number"
+                    TextAlign="TextAlign.Right"
+                    Width="130">
+        </GridColumn>*@
+        <GridColumn Field="@nameof(Supplier.PostalCode)"
+                    HeaderText="Postal Code"
+                    TextAlign="TextAlign.Right"
+                    Width="130">
+        </GridColumn>
+        @*<GridColumn Field="@nameof(Supplier.Country)"
+                    HeaderText="Country"
+                    TextAlign="TextAlign.Right"
+                    Width="130">
+        </GridColumn>*@
+        <GridColumn Field="@nameof(Supplier.Phone)"
+                    HeaderText="Phone Number"
+                    TextAlign="TextAlign.Right"
+                    Width="130">
+        </GridColumn>
+        @*<GridColumn Field="@nameof(Supplier.Fax)"
+                    HeaderText="Fax"
+                    TextAlign="TextAlign.Right"
+                    Width="130">
+        </GridColumn>
+        <GridColumn Field="@nameof(Supplier.HomePage)"
+                    HeaderText="Home Page"
+                    TextAlign="TextAlign.Right"
+                    Width="130">
+        </GridColumn>*@
+    </GridColumns>
+
+</SfGrid>
+
+@code{
+   
+}
