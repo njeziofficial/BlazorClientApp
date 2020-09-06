@@ -8,7 +8,7 @@ namespace BlazorClientApp.Models
 {
     public class Supplier
     {
-        public int SupplierID { get; set; }
+        public int? SupplierID { get; set; }
 
         [Required]
         [Display(Name = "Company Name")]

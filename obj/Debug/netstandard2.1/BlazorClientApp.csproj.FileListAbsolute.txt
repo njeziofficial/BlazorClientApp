@@ -479,6 +479,8 @@ C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\RazorDeclaration\Pages\NewS
 C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\Razor\Pages\NewSupplier.razor.g.cs
 C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\RazorDeclaration\Shared\SupplierForm.razor.g.cs
 C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\Razor\Shared\SupplierForm.razor.g.cs
-C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\integrity\Z0pYTJkCIiIJL9nKfREoujWc99EGRciDjIhhmLyYvig=.hash
-C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\integrity\x7KzhSDQVWy-RG6LVvYbtYlzaXTxxEmh1EDFZFCYeYw=.hash
-C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\integrity\qTO5yXY-kW7zEBbBteRxj3WeMWI6AlBM2ySJ4VZClcU=.hash
+C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\RazorDeclaration\Pages\CrudTest.razor.g.cs
+C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\Razor\Pages\CrudTest.razor.g.cs
+C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\integrity\bVE_iZGCnGP3GNVlnh2iYQRjGDk8Kw0eCDrcwCY1gag=.hash
+C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\integrity\Y76aarHlJZkyadhH34NSpIrzZ6Mx0aCzeF_ZCQSSK20=.hash
+C:\Projects\BlazorClientApp\obj\Debug\netstandard2.1\integrity\fRG1ddYmsVt9vVNDcLxWX898Oa-ohFLJR9ujWVoo4eg=.hash

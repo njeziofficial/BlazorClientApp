@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Z0pYTJkCIiIJL9nKfREoujWc99EGRciDjIhhmLyYvig=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bVE_iZGCnGP3GNVlnh2iYQRjGDk8Kw0eCDrcwCY1gag=.hash",
       "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorClientApp.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorClientApp.dll.br"
     },
@@ -211,26 +211,6 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PgdPlfIGMiiwlpiXDS2THy-8i45HhlLlGEutDx0fLEI=.hash",
-      "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Syncfusion.Blazor.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Syncfusion.Blazor.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ubyINHXDmWOAugBDEb8CCz_uV68eordXiYDxpUeRBvg=.hash",
-      "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.CSharp.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CSharp.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\lHuNoJVY9KnfcXlh0ufijrAOuomHZBEpWktbKQaY89k=.hash",
-      "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Syncfusion.PdfExport.Net.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Syncfusion.PdfExport.Net.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\99ZzjvOojmi9x2Na1dhmq2s2JjJ5LcCbC-qOE9RWJ9U=.hash",
-      "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Syncfusion.ExcelExport.Net.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Syncfusion.ExcelExport.Net.dll.br"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bSgsT2x5xMvs8mara5wU_EJwcyHa9GVMU85HwhWcdWM=.hash",
       "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Web.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
@@ -259,6 +239,26 @@
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
       "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Abstractions.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PgdPlfIGMiiwlpiXDS2THy-8i45HhlLlGEutDx0fLEI=.hash",
+      "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Syncfusion.Blazor.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Syncfusion.Blazor.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ubyINHXDmWOAugBDEb8CCz_uV68eordXiYDxpUeRBvg=.hash",
+      "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.CSharp.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CSharp.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\lHuNoJVY9KnfcXlh0ufijrAOuomHZBEpWktbKQaY89k=.hash",
+      "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Syncfusion.PdfExport.Net.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Syncfusion.PdfExport.Net.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\99ZzjvOojmi9x2Na1dhmq2s2JjJ5LcCbC-qOE9RWJ9U=.hash",
+      "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Syncfusion.ExcelExport.Net.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Syncfusion.ExcelExport.Net.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BPeXAMTZKR8pJ7LpQA8_w4soJFGV1TLt2PPpnmpBUeE=.hash",
@@ -336,7 +336,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\x7KzhSDQVWy-RG6LVvYbtYlzaXTxxEmh1EDFZFCYeYw=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Y76aarHlJZkyadhH34NSpIrzZ6Mx0aCzeF_ZCQSSK20=.hash",
       "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorClientApp.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorClientApp.pdb.br"
     },
@@ -366,7 +366,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qTO5yXY-kW7zEBbBteRxj3WeMWI6AlBM2ySJ4VZClcU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fRG1ddYmsVt9vVNDcLxWX898Oa-ohFLJR9ujWVoo4eg=.hash",
       "Source": "C:\\Projects\\BlazorClientApp\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

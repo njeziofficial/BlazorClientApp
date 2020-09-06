@@ -10,17 +10,20 @@
         AllowPaging="true"
         AllowSorting="true"
         AllowFiltering="false"
-        AllowGrouping="true">   
-    <SfDataManager Url="http://localhost:7070/api/suppliers"                   
+        AllowGrouping="true"
+        Toolbar="@(new List<string>() { "Add", "Edit", "Delete", "Update", "Cancel" })"
+        Height="315">
+    <SfDataManager Url="http://localhost:7070/odata/suppliers"
                    Adaptor="Adaptors.ODataV4Adaptor"></SfDataManager>
     <GridPageSettings PageSize="5"></GridPageSettings>
+    <GridEditSettings AllowAdding="true" AllowEditing="true" AllowDeleting="true" Mode="EditMode.Dialog"></GridEditSettings>
     <GridColumns>
-        @*<GridColumn Field="@nameof(Supplier.SupplierID)"
+        <GridColumn Field="@nameof(Supplier.SupplierID)"
                     HeaderText="Supplier ID"
                     IsPrimaryKey="true"
+                    ValidationRules="@(new ValidationRules { Required=true})"
                     TextAlign="TextAlign.Right"
-                    Width="120">
-        </GridColumn>*@
+                    Width="120"></GridColumn>
         <GridColumn Field="@nameof(Supplier.CompanyName)"
                     HeaderText="Company Name"
                     TextAlign="TextAlign.Right"
@@ -41,41 +44,21 @@
                     TextAlign="TextAlign.Right"
                     Width="130">
         </GridColumn>
-        @*<GridColumn Field="@nameof(Supplier.City)"
-                    HeaderText="City"
-                    TextAlign="TextAlign.Right"
-                    Width="130">
-        </GridColumn>
-        <GridColumn Field="@nameof(Supplier.Region)"
-                    HeaderText="Phone Number"
-                    TextAlign="TextAlign.Right"
-                    Width="130">
-        </GridColumn>*@
         <GridColumn Field="@nameof(Supplier.PostalCode)"
                     HeaderText="Postal Code"
                     TextAlign="TextAlign.Right"
                     Width="130">
         </GridColumn>
-        @*<GridColumn Field="@nameof(Supplier.Country)"
-                    HeaderText="Country"
-                    TextAlign="TextAlign.Right"
-                    Width="130">
-        </GridColumn>*@
         <GridColumn Field="@nameof(Supplier.Phone)"
                     HeaderText="Phone Number"
                     TextAlign="TextAlign.Right"
                     Width="130">
         </GridColumn>
-        @*<GridColumn Field="@nameof(Supplier.Fax)"
-                    HeaderText="Fax"
-                    TextAlign="TextAlign.Right"
-                    Width="130">
+        <GridColumn HeaderText="Manage Records" Width="150">
+            <GridCommandColumns>
+                <GridCommandColumn ButtonOption="@(new CommandButtonOptions() { Content = "Details", CssClass = "e-flat" })"></GridCommandColumn>
+            </GridCommandColumns>
         </GridColumn>
-        <GridColumn Field="@nameof(Supplier.HomePage)"
-                    HeaderText="Home Page"
-                    TextAlign="TextAlign.Right"
-                    Width="130">
-        </GridColumn>*@
     </GridColumns>
 
 </SfGrid>
